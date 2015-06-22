@@ -44,7 +44,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="87" width="293" height="58"/>
+                                    <rect key="frame" x="6" y="144" width="197" height="79"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nj-J6-UMF">
@@ -59,6 +59,15 @@
                                     <action selector="sendMailButtonPressd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yAV-RN-PIC"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QC8-FG-fO6">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="7" y="72" width="194" height="62"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -68,6 +77,7 @@
                                 <exclude reference="s0H-Gc-gb0"/>
                                 <exclude reference="x8p-VW-lkD"/>
                                 <exclude reference="4nj-J6-UMF"/>
+                                <exclude reference="QC8-FG-fO6"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -77,6 +87,7 @@
                                 <include reference="s0H-Gc-gb0"/>
                                 <include reference="x8p-VW-lkD"/>
                                 <include reference="4nj-J6-UMF"/>
+                                <include reference="QC8-FG-fO6"/>
                             </mask>
                         </variation>
                     </view>
@@ -85,6 +96,7 @@
                         <outlet property="enterNameTextField" destination="Gmg-NT-rFV" id="rFS-MU-DUM"/>
                         <outlet property="mailButton" destination="4nj-J6-UMF" id="vzE-dg-RPh"/>
                         <outlet property="messageLabel" destination="x8p-VW-lkD" id="Mii-Mh-uxe"/>
+                        <outlet property="nameLabel" destination="QC8-FG-fO6" id="Yke-zr-uQ9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
